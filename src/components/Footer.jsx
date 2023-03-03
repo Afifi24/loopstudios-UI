@@ -6,8 +6,8 @@ import pentrest from '../images/icon-pinterest.svg'
 import instagram from '../images/icon-instagram.svg'
 const Footer = () => {
   return (
-    <div className='bg-black p-6 flex flex-col md:flex-row md:justify-between md:items-center'>
-      <div className='mx-10 md:mx-20 flex flex-col items-center md:items-start text-[#555] '>
+    <div className='bg-black p-6 flex flex-col mt-32 md:flex-row md:justify-between md:items-center'>
+      <div className='mx-10 md:mx-20 flex flex-col items-center md:items-start text-[#eee] font-alata '>
         <img src={logo} alt="" />
        <div className='flex flex-col space-y-4 md:space-y-0 md:space-x-4 md:flex-row mt-4 text-center'>
              <div className='group'>
@@ -39,7 +39,7 @@ const Footer = () => {
             <img className='w-6' src={pentrest} alt="" />
             <img className='w-6' src={instagram} alt="" />
            </div>
-           <div className='text-[#444] mt-4'>
+           <div className='text-[#999] mt-4'>
             <p className='text-center'> &copy; 2022 Loopstudios. All the rights reserved.</p>
            </div>
        </div>

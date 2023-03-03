@@ -21,20 +21,20 @@ const Loopstudios = () => {
     <div>
        <div className=" relative mx-auto max-w-6xl flex flex-col my-32 px-6 md:px-0  md:flex-row">
           <img src={img} alt="" />
-          <div className='md:top-48   bg-white md:absolute md:right-0 md:py-20 md:pl-20'>
-            <h2 className='uppercase mt-10 mb-6 text-4xl text-center text-gray-900 md:text-5xl md:mt-0 md:text-left'>the leader in interactive vr</h2>
-            <p className='max-w-md mx-auto text-center md:text-left md:mx-0'>
+          <div className='md:top-48 bg-white md:absolute md:right-0 md:py-20 md:pl-20'>
+            <h2 className='uppercase font-josefin max-w-md mt-10 mb-6 text-4xl text-center text-gray-900 md:text-5xl md:mt-0 md:text-left'>the leader in interactive vr</h2>
+            <p className='max-w-md mx-auto font-alata text-gray-400 leading-6 text-center md:text-left md:mx-0'>
               Founded in 2011,loopstudios has been producing world-class virtual reality prijects for the best companies around the globe.
               Our award winning creations have transformed businesses through digital experiences that bind to their brand.
             </p>
           </div>
        </div>
        <div className='mx-20  flex justify-center md:justify-between my-6'>
-           <h2 className='uppercase text-center md:text-left text-4xl md:text-5xl'>our creatives</h2>
+           <h2 className='uppercase text-center font-josefin md:text-left text-3xl md:text-5xl'>our creatives</h2>
            <button className='hidden btn md:block'>see all</button>
        </div>
        {/* images items */}
-       <div className='flex flex-col items-center gap-4 md:gap-2 justify-between space-y-6 md:space-y-0 my-10 md:flex-row md:flex-wrap md:mx-20 mx-10 '>
+       <div className='flex flex-col items-center gap-4 justify-between space-y-6 md:space-y-0 my-10 md:flex-row md:flex-wrap md:mx-20 mx-10 '>
               <div  className='group overflow-hidden relative '>
                  {/* desktop image */}
                  <img className='hidden md:block w-full group-hover:scale-110 duration-200 ' src={img4d} alt="" />
@@ -102,6 +102,9 @@ const Loopstudios = () => {
               </div>
                  
        </div>
+      <div className='flex items-center justify-center text-center'>
+      <button className='btn md:hidden '>see all </button>
+      </div>
     </div>
   )
 }
