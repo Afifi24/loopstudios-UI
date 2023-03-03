@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap');
+@layer components{
+    .btn{
+      @apply  tracking-little duration-200 uppercase hover:text-white border-2 border-black px-10 py-2 hover:bg-black;
+    }
+}
+#hero{
+        background-image: url('./images/desktop/image-hero.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+@media(max-width:500px){
+    #hero{
+        background-image: url('./images/mobile/image-hero.jpg');
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+   
